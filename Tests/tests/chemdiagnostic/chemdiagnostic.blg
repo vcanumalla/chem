@@ -1,5 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'chemdiagnostic.blg'
-[20] biber:313> INFO - === Mon Jun  3, 2019, 18:13:35
-[36] Biber.pm:371> INFO - Reading 'chemdiagnostic.bcf'
-[80] Utils.pm:169> WARN - No data sources defined!
