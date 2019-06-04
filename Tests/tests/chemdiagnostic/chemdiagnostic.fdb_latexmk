@@ -1,9 +1,10 @@
 # Fdb version 3
-["biber chemdiagnostic"] 1559610815 "chemdiagnostic.bcf" "chemdiagnostic.bbl" "chemdiagnostic" 1559610825
-  "chemdiagnostic.bcf" 1559610825 91359 67731bcdef3029eecef9abaeac0fde73 ""
+["biber chemdiagnostic"] 1559610815 "chemdiagnostic.bcf" "chemdiagnostic.bbl" "chemdiagnostic" 1559612607
+  "chemdiagnostic.bcf" 1559612513 91359 67731bcdef3029eecef9abaeac0fde73 ""
   (generated)
   "chemdiagnostic.bbl"
-["pdflatex"] 1559610820 "chemdiagnostic.tex" "chemdiagnostic.pdf" "chemdiagnostic" 1559610825
+  "chemdiagnostic.blg"
+["pdflatex"] 1559612509 "chemdiagnostic.tex" "chemdiagnostic.pdf" "chemdiagnostic" 1559612607
   "/etc/texmf/web2c/texmf.cnf" 1559266608 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -41,6 +42,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1480098733 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1480098733 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1480098733 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1480098733 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1480098806 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def" 1518644053 67244 2dce3d67c354c8d92f638d0f8682fb73 ""
@@ -150,17 +152,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1559269000 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1559269013 4146383 5d70343ff85e7a2fc95b693077636acd ""
-  "chemdiagnostic.aux" 1559610825 1097 b8d6762f0144de880547472bb8616ec7 ""
+  "chemdiagnostic.aux" 1559612513 1097 b8d6762f0144de880547472bb8616ec7 ""
   "chemdiagnostic.bbl" 1559610815 0 d41d8cd98f00b204e9800998ecf8427e "biber chemdiagnostic"
-  "chemdiagnostic.out" 1559610821 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "chemdiagnostic.pre" 1559610820 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "chemdiagnostic.run.xml" 1559610825 2329 0a4e24e706f5457903c1eba6ac22895e ""
-  "chemdiagnostic.tex" 1559610809 9914 d996a3b4752caeb45919d53c0065c106 ""
+  "chemdiagnostic.out" 1559612509 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chemdiagnostic.pre" 1559612509 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "chemdiagnostic.run.xml" 1559612513 2329 0a4e24e706f5457903c1eba6ac22895e ""
+  "chemdiagnostic.tex" 1559612596 9937 1029dbc7a106c992f51a81f4b0435e62 ""
+  "pertable.pdf" 0 -1 0 ""
   (generated)
+  "chemdiagnostic.run.xml"
+  "chemdiagnostic.aux"
+  "chemdiagnostic.pdf"
+  "chemdiagnostic.out"
   "chemdiagnostic.bcf"
   "chemdiagnostic.log"
-  "chemdiagnostic.out"
   "chemdiagnostic.pre"
-  "chemdiagnostic.pdf"
-  "chemdiagnostic.aux"
-  "chemdiagnostic.run.xml"
