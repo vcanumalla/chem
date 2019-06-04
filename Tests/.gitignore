@@ -9,4 +9,4 @@
 *.out
 *.pre
 *.run.xml
-*synctex.gz
+*.synctex.gz
