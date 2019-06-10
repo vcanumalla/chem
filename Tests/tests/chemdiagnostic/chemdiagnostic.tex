@@ -19,11 +19,17 @@
 \usepackage{siunitx}
 \usepackage[T1]{fontenc}
 \usepackage{empheq}
+\usepackage{import}
+\usepackage{transparent}
+\usepackage{xifthen}
 \newcommand{\standard}{^\circ}
 \pagestyle{fancy}
 \lhead{Class Diagnostic}
 \rhead{\thepage}
-
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{images/}{#1.pdf_tex}
+}
 
 
 
@@ -33,7 +39,6 @@
     Local Section Diagnostic
 \end{center}
 \begin{center} Vishal Canumalla \end{center}
-
 
  \noindent Rules: You have 50 minutes to complete this 27 question multiple choice exam. You may use a non programmable calculator. You are not allowed to access the internet during this exam. I will not aid you during this exam. \\
  
@@ -48,6 +53,7 @@
 
 \end{center}
 \hspace{-0.69 in}\includegraphics[scale = .8]{images/pertable.pdf}
+
 
 \newpage
 \begin{enumerate}[leftmargin = *]
