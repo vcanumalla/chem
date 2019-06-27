@@ -1,6 +1,6 @@
-\documentclass[12pt]{article}
+\documentclass[11pt]{article}
 \usepackage{amsmath,amssymb,amsthm}
-\renewcommand{\theequation}{\alph{equation}}
+% \renewcommand{\theequation}{\alph{equation}}
 \usepackage[pdftex]{graphicx}
 \usepackage[shortlabels]{enumitem}
 \usepackage[inline]{asymptote}
@@ -28,14 +28,27 @@
 }
 \begin{document}
 
-\section{Basic Terms}  
-Before we can begin giving notes, we need to learn some key terms that are necessary to know before solving problems in chemical kinetics.
+\section{Basic Terms}  Before we can begin giving notes, we need to learn some key terms that are necessary to know before solving problems in chemical kinetics.
 \begin{itemize}
     \item \textbf{Kinetics:} The rate at which chemical reactions happens. Kinetics deals with studying how fast a reaction occurs, and how much energy it takes to occur.
-    \item \textbf{Order:} The amount of effect a substance has on the rate of a reaction
-    \item \textbf{Rate Law:} The mathematical relationship of the concentration of reactants against the concentration of products
-    \item \textbf{}
+    \item \textbf{Order:} The amount of effect a substance has on the rate of a reaction.
+    \item \textbf{Rate Law:} The mathematical relationship of the concentration of reactants against the concentration of products.
+    \item \textbf{Activation Energy:} The energy necessary for a reaction to occur. For example, molecules will need to collide at a certain 
+    speed for them to react, which requires a certain amount of internal energy.
+    \item \textbf{Rate Constant:} A factor found in rate laws, represented by $k$
+    \item \textbf{Half-life} The time for a substance to decrease to 50\% of its original concentration. Represented by $t_{1/2}$.
 \end{itemize}
+\section{The General Rate Law} For a reaction 
+
+$$\ce{aA + bB -> cC + dD}$$
+The general rate law says 
+\begin{align}
+    -\frac{1}{\text{a}}\left(\frac{d[\text{A}]}{dt}\right) = -\frac{1}{\text{b}}\left(\frac{d[\text{B}]}{dt}\right) = \frac{1}{\text{c}}\left(\frac{d[\text{C}]}{dt}\right) = \frac{1}{\text{d}}\left(\frac{d[\text{D}]}{dt}\right)
+\end{align}
+Where the lowercase letters represent the stoichiometric coefficients of each substance. Note the negative before the rates for substance A and B. This is because they are consumed, while C and D are produced.
+
+
+
     
 
 \end{document}
